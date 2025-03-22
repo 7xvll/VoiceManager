@@ -1,63 +1,63 @@
 # TempVoice Discord Bot
 
-A Discord bot for creating and managing temporary voice channels, created by Coders Planet.
+Un bot Discord pour créer et gérer des salons vocaux temporaires, développé par 7xvl.
 
-## Features
+## Fonctionnalités
 
-- Create temporary voice channels that delete when empty
-- Manage channels with an easy-to-use interface
-- Control privacy, user limits, and channel settings
-- Manage users (invite, kick, trust, block)
-- Transfer or claim channel ownership
-- All settings automatically saved
-- Simple website showing developer information
+- Création de salons vocaux temporaires supprimés lorsqu'ils sont vides  
+- Interface simple pour la gestion des salons  
+- Contrôle de la confidentialité, des limites d’utilisateurs et des paramètres  
+- Gestion des utilisateurs (inviter, expulser, approuver, bloquer)  
+- Transfert ou revendication de la propriété d’un salon  
+- Enregistrement automatique de tous les paramètres  
+- Site web simple affichant les informations du développeur  
 
-## Quick Setup
+## Installation rapide
 
-1. Clone repository and run `npm install`
-2. Create `.env` file with:
+1. Clonez le dépôt et exécutez `npm install`  
+2. Créez un fichier `.env` avec :  
    ```
-   TOKEN=your_discord_bot_token
-   CLIENT_ID=your_discord_client_id
-   GUILD_ID=your_discord_server_id
-   MONGODB_URI=your_mongodb_connection_string
+   TOKEN=ton_token_discord_bot
+   CLIENT_ID=ton_client_id_discord
+   GUILD_ID=ton_server_id_discord
+   MONGODB_URI=ton_url_de_connexion_mongodb
    PORT=3000
    ```
-3. Deploy commands and start bot: `npm start`
+3. Déployez les commandes et démarrez le bot : `npm start`
 
-## Website
+## Site web
 
-The bot includes a simple website that displays developer information. When you start the bot with `npm start`, the website will be available at `http://localhost:3000` (or the port you specified in the .env file).
+Le bot inclut un site web simple affichant des informations sur le développeur. Lorsque vous démarrez le bot avec `npm start`, le site sera disponible à `http://localhost:3000` (ou au port spécifié dans le fichier `.env`).
 
-## How to Use
+## Utilisation
 
-1. Run `/setup` command and choose interface type
-2. Join the Creator Channel to make your own voice channel
-3. Use the Interface Channel to manage your voice channel
+1. Exécutez la commande `/setup` et choisissez le type d’interface  
+2. Rejoignez le Salon Créateur pour créer votre propre salon vocal  
+3. Utilisez le Salon d’Interface pour gérer votre salon  
 
-## Channel Management Options
+## Options de gestion des salons
 
-- **NAME** - Rename channel
-- **LIMIT** - Set user limit
-- **PRIVACY** - Lock/unlock channel
-- **WAITING ROOM** - Create waiting room
-- **THREAD** - Create thread
-- **TRUST/UNTRUST** - Manage trusted users
-- **INVITE/KICK** - Manage channel members
-- **REGION** - Change voice region
-- **BLOCK/UNBLOCK** - Manage blocked users
-- **CLAIM/TRANSFER** - Manage ownership
-- **DELETE** - Remove channel
+- **NOM** - Renommer le salon  
+- **LIMITE** - Définir une limite d’utilisateurs  
+- **CONFIDENTIALITÉ** - Verrouiller/déverrouiller le salon  
+- **SALLE D’ATTENTE** - Créer une salle d’attente  
+- **FIL DE DISCUSSION** - Créer un fil de discussion  
+- **APPROUVER/RÉVOQUER** - Gérer les utilisateurs de confiance  
+- **INVITER/EXPULSER** - Gérer les membres du salon  
+- **RÉGION** - Modifier la région du salon vocal  
+- **BLOQUER/DÉBLOQUER** - Gérer les utilisateurs bloqués  
+- **REVENDIQUER/TRANSFÉRER** - Gérer la propriété du salon  
+- **SUPPRIMER** - Supprimer le salon  
 
-## License
+## Licence
 
-MIT License with Attribution Requirement and No Commercial Sale
+Licence MIT avec obligation d’attribution et interdiction de vente commerciale  
 
-- This software is created by Coders Planet
-- You must credit Coders Planet as the original author in any project using this code
-- You must provide attribution in any media featuring this code
-- Commercial sale of this software or derivative works is prohibited without explicit permission
+- Ce logiciel est créé par Coders Planet  
+- Vous devez créditer Coders Planet comme auteur original dans tout projet utilisant ce code  
+- Vous devez fournir une attribution dans tout média présentant ce code  
+- La vente commerciale de ce logiciel ou de ses dérivés est interdite sans autorisation explicite  
 
-## Creator
+## Créateur
 
-This project is developed and maintained by Coders Planet.
+Ce projet est développé et maintenu par 7xvl
